@@ -13,6 +13,7 @@ GEM
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
     base32 (0.3.4)
+    base64 (0.3.0)
     blue_factory (0.1.4)
       sinatra (~> 3.0)
     capistrano (2.15.11)
@@ -68,7 +69,8 @@ GEM
     tilt (2.3.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    websocket-driver (0.7.6)
+    websocket-driver (0.8.1)
+      base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     zeitwerk (2.6.12)
